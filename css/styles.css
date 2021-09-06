@@ -299,9 +299,18 @@ footer {
 }
 
 @media (max-width: 550px) {
+    .contenedor-footer {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .contenedor-footer nav {
+        flex: 0 0 calc(50% - 1rem);
+    }
+
     .navbar-footer {
         flex-direction: column;
-        margin-bottom: 8rem;
     }
 }
 
