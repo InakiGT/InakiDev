@@ -97,12 +97,28 @@ ion-icon:hover {
     justify-content: space-around;
 }
 
-/* ================================================================= */
-@media (max-width: 768px){
+/* ========================= Menú Movil ========================= */
+
+@media(max-width: 550px) {
+
+    .navbar {
+        padding: 2rem 3rem;
+    }
+
     .navegacion {
         display: none;
     }
+
+    .menu-movil:hover {
+        transition: scale(1.1);
+    }
+
 }
+
+.activo {
+    display: block;
+}
+
 /* ================================================================= */
 
 .nav-element {
