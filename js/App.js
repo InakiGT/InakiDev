@@ -9,5 +9,6 @@ botonMenu.addEventListener( 'click', e => {
     e.preventDefault();
 
     menu.classList.toggle('activo');
+    menu.classList.toggle('slidein');
 
 });

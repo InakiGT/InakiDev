@@ -97,20 +97,60 @@ ion-icon:hover {
     justify-content: space-around;
 }
 
+
 /* ========================= Menú Movil ========================= */
 
 @media(max-width: 550px) {
 
     .navbar {
         padding: 2rem 3rem;
+        display: block;
+    }
+
+    .navbar-movil {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .navegacion {
         display: none;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .nav-element {
+        font-size: 2.2rem!important;
+        margin-bottom: 2.5rem;
+    }
+
+    .nav-element:last-of-type {
+        margin-bottom: 0;
+        border-bottom: 0;
     }
 
     .menu-movil:hover {
         transition: scale(1.1);
+    }
+
+    /* ==== Animación === */
+
+    .silide-in {
+        animation-name: slidein;
+        animation-duration: 2s;
+    }
+
+    @keyframes slide-in {
+        from { background: #FFF; }
+        to { background: #000; }
+    }
+
+}
+
+@media(min-width: 768px) {
+
+    .menu-movil {
+        display: none;
     }
 
 }
