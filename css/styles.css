@@ -133,16 +133,27 @@ ion-icon:hover {
         transition: scale(1.1);
     }
 
+
     /* ==== Animación === */
 
-    .silide-in {
+    .slide-in {
         animation-name: slidein;
-        animation-duration: 2s;
+        animation-duration: .8s;
     }
 
-    @keyframes slide-in {
-        from { background: #FFF; }
-        to { background: #000; }
+    .slide-out {
+        animation-name: slideout;
+        animation-duration: .8s;
+    }
+
+    @keyframes slidein {
+        from { margin-top: -200px; }
+        to { margin-top: 20px; }
+    }
+
+    @keyframes slideout {
+        from { margin-top: 20px; }
+        to { margin-top: -300px; }
     }
 
 }

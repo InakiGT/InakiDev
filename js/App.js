@@ -8,7 +8,16 @@ botonMenu.addEventListener( 'click', e => {
 
     e.preventDefault();
 
-    menu.classList.toggle('activo');
-    menu.classList.toggle('slidein');
+    const pro = menu.classList.toggle('slide-in');
+
+    if( !pro ) {
+        menu.classList.toggle('slide-out');
+        setTimeout(() => {
+            menu.classList.toggle('activo');
+            menu.classList.toggle('slide-out');
+        }, 700 );
+    } else {
+        menu.classList.toggle('activo');
+    }
 
 });
