@@ -152,8 +152,8 @@ ion-icon:hover {
     }
 
     @keyframes slideout {
-        from { margin-top: 20px; }
-        to { margin-top: -300px; }
+        from { margin-top: 20px; opacity: 100%; }
+        to { margin-top: -245px; opacity: 0; }
     }
 
 }
@@ -342,6 +342,14 @@ ion-icon:hover {
     .fondo {
         width: 30rem;
         height: 30rem;
+    }
+
+    .elemento-pricipal div {
+        margin-bottom: 3rem;
+    }
+
+    .elemento-pricipal div:last-of-type {
+        margin-bottom: 0;
     }
 
     .elemento-pricipal img {
