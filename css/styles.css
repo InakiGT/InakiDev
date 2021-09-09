@@ -129,8 +129,8 @@ ion-icon:hover {
         border-bottom: 0;
     }
 
-    .menu-movil:hover {
-        transition: scale(1.1);
+    .menu-movil ion-icon:hover {
+        color: #FFF;
     }
 
 
