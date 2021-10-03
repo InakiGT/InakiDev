@@ -441,3 +441,48 @@ footer {
 .logo-footer span {
     font-weight: 700;
 }
+
+
+/* ==== Página Videojuegos ==== */
+.hero-videojuegos {
+    background-image: url(../images/ezgif.com-gif-maker.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFF;
+    padding: 9rem 20rem 4rem 20rem;
+    margin-bottom: 16rem;
+    position: relative;
+}
+
+.hero-videojuegos div {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(63, 57, 57, 0.5);
+}
+
+.hero-videojuegos p{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-weight: 700;
+    font-family: 'VT323', monospace;
+    z-index: 1;
+}
+
+.videojuegos-principal {
+    margin-bottom: 10rem;
+}
+
+.videojuegos-principal p {
+    font-size: 1.8rem;
+    line-height: 2;
+}
