@@ -445,31 +445,29 @@ footer {
 
 /* ==== Página Videojuegos ==== */
 .hero-videojuegos {
+    align-items: center;
     background-image: url(../images/ezgif.com-gif-maker.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80vh;
+    color: #FFF;
     display: flex;
     flex-direction: column;
+    height: 80vh;
     justify-content: center;
-    color: #FFF;
-    padding: 9rem 20rem 4rem 20rem;
     margin-bottom: 16rem;
+    padding: 9rem 20rem 4rem 20rem;
     position: relative;
 }
 
 .hero-videojuegos div {
     position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
     background-color: rgba(63, 57, 57, 0.5);
 }
 
-.hero-videojuegos p{
+.hero-videojuegos p {
     text-align: center;
     text-transform: uppercase;
     font-size: 5rem;
@@ -485,4 +483,10 @@ footer {
 .videojuegos-principal p {
     font-size: 1.8rem;
     line-height: 2;
+}
+
+@media(max-width: 550px) {
+    .hero-videojuegos p {
+        text-align: center;
+    }
 }
