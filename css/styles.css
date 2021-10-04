@@ -443,6 +443,31 @@ footer {
 }
 
 
+/* ==== Página - Web - Movil ==== */
+.principal-content {
+    margin-bottom: 5rem;
+}
+
+.principal-content h2 {
+    font-size: 3rem;
+}
+
+.principal-content p {
+    font-size: 2rem;
+    line-height: 2;
+}
+
+.principal-image {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.principal-image img {
+    height: 35rem;
+}
+
+
 /* ==== Página Videojuegos ==== */
 .hero-videojuegos {
     align-items: center;
