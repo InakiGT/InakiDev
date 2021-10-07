@@ -515,3 +515,21 @@ footer {
         text-align: center;
     }
 }
+
+
+/* ==== Página BLOG ==== */
+.hero-blog {
+    align-items: center;
+    background-color: #1c303d;
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+}
+
+.hero-blog p {
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 5rem;
+}
