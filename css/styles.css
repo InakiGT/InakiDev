@@ -533,3 +533,80 @@ footer {
     text-transform: uppercase;
     margin-top: 5rem;
 }
+
+.filter-container {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    margin: 3rem auto;
+    max-width: 80%;
+}
+
+.filter-container p {
+    color: rgb(88, 63, 102);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.filter-container ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.filter-element {
+    border-radius: 25px;
+    flex-direction: row;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    padding: 1rem 1.5rem;
+}
+
+.filter-element a {
+    margin: 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-element a p {
+    color: #FFF;
+}
+
+.filter-element img {
+    width: 3rem;
+    margin-right: .3rem;
+}
+
+.verde {
+    background-color: rgb(127, 173, 127);
+}
+
+.anaranjado {
+    background-color: rgb(194, 130, 58);
+}
+
+.amarillo {
+    background-color: rgb(206, 193, 9);
+}
+
+.azul {
+    background-color: rgb(79, 163, 196);
+}
+
+.negro {
+    background-color:rgb(49, 45, 51);
+}
+
+.verde-claro {
+    background-color: rgb(192, 191, 190);
+}
+
+.azul-oscuro {
+    background-color: rgb(34, 69, 90);
+}
+
+.blog-title {
+    color: #597283;
+    font-size: 4rem;
+    margin-top: 6rem;
+    text-transform: uppercase;
+}
