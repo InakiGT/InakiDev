@@ -97,6 +97,10 @@ ion-icon:hover {
     justify-content: space-around;
 }
 
+.active-menu {
+    border-bottom: 2px solid #FFF;
+    padding-bottom: .5rem;
+}
 
 /* ========================= Menú Movil ========================= */
 
@@ -565,6 +569,11 @@ footer {
     align-items: center;
     display: flex;
     justify-content: space-between;
+    transition: .3s transform ease;
+}
+
+.filter-element a:hover {
+    transform: scale(.85);
 }
 
 .filter-element a p {
