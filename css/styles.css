@@ -536,6 +536,7 @@ footer {
     font-weight: bold;
     text-transform: uppercase;
     margin-top: 5rem;
+    text-align: center;
 }
 
 .filter-container {
@@ -662,15 +663,40 @@ footer {
     line-height: 1.7;
 }
 
+.verde-acqua {
+    background-color: rgb(35, 114, 151);
+}
+
+.azul-gris {
+    background-color: rgb(112, 129, 146);
+}
+
+.azul-claro {
+    background-color: rgb(112, 180, 197);
+}
+
+.morado {
+    background-color: rgb(93, 59, 121);
+}
+
+.amarillento {
+    background-color: rgb(191, 196, 120);
+}
 
 @media(max-width: 550px) {
+    .contenido-hero-categoria {
+        width: 70%;
+    }
     .contenido-hero-categoria img {
         width: 8rem;
     }
     .contenido-hero-categoria p {
         font-size: 4rem;
     }
+    .texto-hero-categoria {
+        width: 85%;
+    }
     .texto-hero-categoria p {
-        font-size: 2rem;
+        font-size: 1.9rem;
     }
 }
