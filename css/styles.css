@@ -700,3 +700,50 @@ footer {
         font-size: 1.9rem;
     }
 }
+
+
+/* === Blque de entradas de blog === */
+.entradas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.blog-entrada {
+    box-shadow: 0px 9px 19px 0px rgba(0,0,0,0.2);
+    background-color: var(--light-gray);
+    padding: 2.5rem 2rem;
+    flex: 0 0 calc(33% - 1rem);
+}
+
+.contenedor-imagen-entrada {
+    margin-bottom: 2rem;
+}
+
+.contenido-entrada .titulo-entrada {
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+
+.contenido-entrada .texto-entrada {
+    font-size: 1.7rem;
+    line-height: 1.6;
+}
+
+.creditos {
+    margin-top: 1.8rem;
+}
+
+.creditos .texto-creditos {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    text-align: right;
+}
+
+.texto-creditos span {
+    color: orange;
+    font-weight: bold;
+}
+
