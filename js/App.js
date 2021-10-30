@@ -25,7 +25,7 @@ botonMenu.addEventListener( 'click', e => {
 // Efecto escritura - Typed
 const typed = new Typed('.typed', {
     // Configuración del efecto
-    strings: [ 'Aplicaciones Web', 'Aplicaciones Móviles', 'Videojuegos', 'Páginas Web' ],
+    strings: [ 'Aplicaciones Web', 'Aplicaciones Móviles', 'Videojuegos', 'Sitios Web' ],
     typeSpeed: 60,
     startDelay: 150,
     backSpeed: 35,
