@@ -704,19 +704,33 @@ footer {
 
 /* === Blque de entradas de blog === */
 .entradas {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto;
 }
 
 .blog-entrada {
+    width: 30rem;
     box-shadow: 0px 9px 19px 0px rgba(0,0,0,0.2);
     background-color: var(--light-gray);
     padding: 2.5rem 2rem;
     flex: 0 0 calc(33% - 1rem);
 }
 
+.blog-entrada a {
+    text-decoration: none;
+    color: #000;
+}
+
 @media(max-width: 550px) {
+
+    .entradas {
+        grid: initial;
+        gap: 0;
+        justify-content: center;
+        grid-template-rows: auto;
+    }
+
     .blog-entrada {
         flex: 0 0 calc(100%);
         margin-bottom: 5rem;
